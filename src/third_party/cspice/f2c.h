@@ -384,8 +384,8 @@ typedef shortint (*J_fp)(...);
 typedef integer (*I_fp)(...);
 typedef real (*R_fp)(...);
 typedef doublereal (*D_fp)(...), (*E_fp)(...);
-typedef /* complex_type */ VOID (*C_fp)(...);
-typedef /* Double complex_type */ VOID (*Z_fp)(...);
+typedef /* Complex */ VOID (*C_fp)(...);
+typedef /* Double Complex */ VOID (*Z_fp)(...);
 typedef logical (*L_fp)(...);
 typedef shortlogical (*K_fp)(...);
 typedef /* Character */ VOID (*H_fp)(...);
@@ -396,17 +396,17 @@ typedef shortint (*J_fp)();
 typedef integer (*I_fp)();
 typedef real (*R_fp)();
 typedef doublereal (*D_fp)(), (*E_fp)();
-typedef /* complex_type */ VOID (*C_fp)();
-typedef /* Double complex_type */ VOID (*Z_fp)();
+typedef /* Complex */ VOID (*C_fp)();
+typedef /* Double Complex */ VOID (*Z_fp)();
 typedef logical (*L_fp)();
 typedef shortlogical (*K_fp)();
 typedef /* Character */ VOID (*H_fp)();
 typedef /* Subroutine */ int (*S_fp)();
 #endif
 /* E_fp is for real functions when -R is not specified */
-typedef VOID C_f;       /* complex_type function */
+typedef VOID C_f;       /* complex function */
 typedef VOID H_f;       /* character function */
-typedef VOID Z_f;       /* double complex_type function */
+typedef VOID Z_f;       /* double complex function */
 typedef doublereal E_f; /* real function with -R not specified */
 
 /* undef any lower-case symbols that your C compiler predefines, e.g.: */
@@ -622,8 +622,8 @@ typedef shortint (*J_fp)(...);
 typedef integer (*I_fp)(...);
 typedef real (*R_fp)(...);
 typedef doublereal (*D_fp)(...), (*E_fp)(...);
-typedef /* complex_type */ VOID (*C_fp)(...);
-typedef /* Double complex_type */ VOID (*Z_fp)(...);
+typedef /* Complex */ VOID (*C_fp)(...);
+typedef /* Double Complex */ VOID (*Z_fp)(...);
 typedef logical (*L_fp)(...);
 typedef shortlogical (*K_fp)(...);
 typedef /* Character */ VOID (*H_fp)(...);
@@ -634,17 +634,17 @@ typedef shortint (*J_fp)();
 typedef integer (*I_fp)();
 typedef real (*R_fp)();
 typedef doublereal (*D_fp)(), (*E_fp)();
-typedef /* complex_type */ VOID (*C_fp)();
-typedef /* Double complex_type */ VOID (*Z_fp)();
+typedef /* Complex */ VOID (*C_fp)();
+typedef /* Double Complex */ VOID (*Z_fp)();
 typedef logical (*L_fp)();
 typedef shortlogical (*K_fp)();
 typedef /* Character */ VOID (*H_fp)();
 typedef /* Subroutine */ int (*S_fp)();
 #endif
 /* E_fp is for real functions when -R is not specified */
-typedef VOID C_f;       /* complex_type function */
+typedef VOID C_f;       /* complex function */
 typedef VOID H_f;       /* character function */
-typedef VOID Z_f;       /* double complex_type function */
+typedef VOID Z_f;       /* double complex function */
 typedef doublereal E_f; /* real function with -R not specified */
 
 /* undef any lower-case symbols that your C compiler predefines, e.g.: */

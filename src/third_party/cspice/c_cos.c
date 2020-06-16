@@ -11,7 +11,7 @@ VOID c_cos(r, z) complex_type *r, *z;
 void c_cos(complex_type *r, complex_type *z)
 #endif
 {
-    double zr = z->r;
-    r->r = cos(zr) * cosh(z->i);
-    r->i = -sin(zr) * sinh(z->i);
-}
+	double zr = z->r;
+	r->r =   cos(zr) * cosh(z->i);
+	r->i = - sin(zr) * sinh(z->i);
+	}
